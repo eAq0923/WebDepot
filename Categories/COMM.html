@@ -25,27 +25,28 @@
                       font-size:21px;
                      }
 
-            .anchor{position:relative;
+            .tooltip{position:relative;
                     display:block;}
-            .anchor .explain{position:absolute;
+            .tooltip .tooltiptext{position:absolute;
                             display:block;
                             text-align:center;
 
-                            width:200px;
+                            width:300px;
                             font-size:15px;
                             background-color:grey;
                             padding:4px 0;
                             border-radius:7px;
                             top:100%;
                             left:50%;
-                            margin-left:-100px;
+                            margin-left:-150px;
 
                             opacity:0;
                             visibility:hidden;
                             transition: opacity 0.5s;
                            }
-            .anchor:hover .explain{opacity:1;
+            .tooltip:hover .tooltiptext{opacity:1;
                                   visibility:visible;
+                                  transition: opacity 0.5s;
                                  }
                     
             
@@ -56,8 +57,8 @@
         <p class = 'smalltitle'>COMM</p>
         <a href='../index.html' class="backlink">Back</a>
     
-        <a href='https://www.pinterest.com/' target = '_blank' class="anchor">Pinterest
-            <span class="explain">test2</span>
+        <a href='https://www.pinterest.com/' target = '_blank' class="tooltip">Pinterest
+            <span class="tooltiptext">test3</span>
         </a>
     	<a href='https://discord.com/' target = '_blank'>Discord</a>
     	<a href='https://undertale.reactor.cc/' target = '_blank'>Deltarune Community</a>
