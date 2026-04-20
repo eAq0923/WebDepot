@@ -1,1 +1,27 @@
-
+            .tooltip{position:relative;
+                    display:block;}
+            .tooltip .tooltiptext{position:absolute;
+                                display:block;
+                                text-align:center;
+    
+                                width:200px;
+                                height:0px;
+                                font-size:14px;
+                                background-color:#ADADAD;
+                                color:white;
+                                padding:4px 0;
+                                border-radius:7px;
+                                bottom:100%;
+                                left:50%;
+                                margin-left:-100px;
+    
+                                opacity:0;
+                                transition: opacity 0.5s,
+                                    width 0.5s,
+                                    height 0.5s;                       
+                               }
+            .tooltip:hover .tooltiptext{opacity:0.85;
+                                        
+                                        height:18px;
+                                       }                              
+                    
