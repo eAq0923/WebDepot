@@ -67,6 +67,7 @@ let database=[
     {id:64, name:"Idiot", desc:"来来来老乐子们吃饭了", url:"https://uu.188.icu/?qq_aio_chat_type=2&clicktime=1759901975892&_wv=1", category:5},
     {id:65, name:"LeapStella", desc:"某高校生做的中转，质量不确保", url:"https://ai.leapstella.com/dashboard/overview", category:4},
     {id:66, name:"SeedHub", desc:"免费电影及影视剧资源下载", url:"https://sidhub.cc/", category:3},
+    {id:67, name:"JsonCrack", desc:"JSON文件可视化辅助工具", url:"https://jsoncrack.com/", category:2},
 
 ];
 
