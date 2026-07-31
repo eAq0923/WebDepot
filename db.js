@@ -68,6 +68,7 @@ let database=[
     {id:65, name:"LeapStella", desc:"某高校生做的中转，质量不确保", url:"https://ai.leapstella.com/dashboard/overview", category:4},
     {id:66, name:"SeedHub", desc:"免费电影及影视剧资源下载", url:"https://sidhub.cc/", category:3},
     {id:67, name:"JsonCrack", desc:"JSON文件可视化辅助工具", url:"https://jsoncrack.com/", category:2},
+    {id:68, name:"Deepseek", desc:"Deepseek官方网站", url:"https://www.deepseek.com/", category:4},
 
 ];
 
