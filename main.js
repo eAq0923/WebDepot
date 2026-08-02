@@ -17,3 +17,15 @@ let sidebar = document.querySelector(".sidebar_1");
 sidebar.sta = 0;
 sidebar.addEventListener("click",sidebar_movement);
 
+let sidebar_button_0 = document.querySelector("#sidebar_button_0");
+let sidebar_button_1 = document.querySelector("#sidebar_button_1");
+let sidebar_button_2 = document.querySelector("#sidebar_button_2");
+let sidebar_button_3 = document.querySelector("#sidebar_button_3");
+let sidebar_button_4 = document.querySelector("#sidebar_button_4");
+let sidebar_button_5 = document.querySelector("#sidebar_button_5");
+let sidebar_buttons = [sidebar_button_0,sidebar_button_1,sidebar_button_2,
+                    sidebar_button_3,sidebar_button_4,sidebar_button_5];
+for(let i = 0;i<sidebar_buttons.length;i++){
+    sidebar_buttons[i].addEventListener("click",sidebar_button_click);
+}
+

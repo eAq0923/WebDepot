@@ -69,10 +69,10 @@ let database=[
     {id:66, name:"SeedHub", desc:"免费电影及影视剧资源下载", url:"https://sidhub.cc/", category:3},
     {id:67, name:"JsonCrack", desc:"JSON文件可视化辅助工具", url:"https://jsoncrack.com/", category:2},
     {id:68, name:"Deepseek", desc:"Deepseek官方网站", url:"https://www.deepseek.com/", category:4},
-    {id:69, name:"CodePen", desc:"HTML项目作品开源网站", url:"https://codepen.io/", category:3},
-    {id:70, name:"MDN WebDocs", desc:"HTML语法知识库", url:"https://developer.mozilla.org/zh-CN/", category:3},
-    {id:71, name:"PubAPIs", desc:"Github社区公开API库", url:"https://github.com/public-apis/public-apis/blob/master/README.md", category:3},
-    {id:72, name:"Rapid", desc:"API库", url:"https://rapidapi.com/hub", category:3},
+    {id:69, name:"CodePen", desc:"在线前端代码编辑与分享社区", url:"https://codepen.io/", category:4},
+    {id:70, name:"MDN WebDocs", desc:"Mozilla 官方 Web 技术文档", url:"https://developer.mozilla.org/zh-CN/", category:3},
+    {id:71, name:"PubAPIs", desc:"Github社区免费公开API库", url:"https://github.com/public-apis/public-apis/blob/master/README.md", category:3},
+    {id:72, name:"Rapid", desc:"第三方API在线调试聚合平台", url:"https://rapidapi.com/hub", category:3},
 
 ];
 

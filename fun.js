@@ -55,5 +55,14 @@ function sidebar_movement(event){
         sidebar_1.textContent = "→";
         sidebar_1.sta=0;
     }
+}
 
+function sidebar_button_click(event){
+    let sidebar_button = event.target;
+    let href = sidebar_button.getAttribute("href");
+    let classdiv = document.querySelector(href);
+    classdiv.style.border = "2px solid black";
+    setTimeout(function(){
+        classdiv.style.border = "2px solid grey";
+    },500);
 }
