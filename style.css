@@ -9,6 +9,9 @@ body{
 h1{
     cursor:default;
 }
+p{
+    cursor:default;
+}
 button{
     opacity: 0.8;
     transition: all 0.5s;
@@ -30,6 +33,17 @@ button:hover{
     }
     100%{
         opacity: 1;
+    }
+}
+@keyframes classdiv_breathing{
+    0%{
+        border:2px solid grey;
+    }
+    50%{
+        border:2px solid black;
+    }
+    100%{
+        border:2px solid grey;
     }
 }
 
@@ -63,7 +77,6 @@ button:hover{
     margin:0 auto;
     background-color: #FDF2E3;
     scroll-margin-top: 67px;
-    transition:all 0.5s;
 }
 .classtitle{
     font-size: 20px;
@@ -136,7 +149,7 @@ button:hover{
     box-sizing: border-box;
     position: fixed;
     width:130px;
-    height:220px;
+    height:265px;
     border:2px solid grey;
     border-radius:10px;
     background-color: #FDF2E3;
@@ -144,6 +157,10 @@ button:hover{
     left:-130px;
     transition: all 0.5s ;
     text-align: center;
+}
+.sidebar_title{
+    font-size: 20px;
+    margin:5px auto 15px;
 }
 .sidebar_button{
     display: block;

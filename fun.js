@@ -61,8 +61,9 @@ function sidebar_button_click(event){
     let sidebar_button = event.target;
     let href = sidebar_button.getAttribute("href");
     let classdiv = document.querySelector(href);
-    classdiv.style.border = "2px solid black";
+
+    classdiv.style.animation = "classdiv_breathing 0.5s ease 3";
     setTimeout(function(){
-        classdiv.style.border = "2px solid grey";
-    },500);
+        classdiv.style.animation = "none";
+    },1500);
 }
