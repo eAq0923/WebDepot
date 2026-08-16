@@ -199,3 +199,14 @@ button:hover{
     z-index: 1;
 }
 
+@media(max-width:450px){
+    .classdiv{
+        width:84%;
+    }
+        .web{
+            width:100%;
+        }
+            .name{
+                width:76%;
+            }
+}
