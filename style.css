@@ -201,12 +201,12 @@ button:hover{
 
 @media(max-width:450px){
     .classdiv{
-        width:84%;
+        width:80%;
     }
         .web{
             width:100%;
         }
             .name{
-                width:70%;
+                width:68%;
             }
 }
