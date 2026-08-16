@@ -60,12 +60,12 @@ button:hover{
     display: flex;
     justify-content: center;
 }
-.add{
-    width:250px;
-}
-.addsubmit{
-    margin:0 5px;
-}
+    .add{
+        width:250px;
+    }
+    .addsubmit{
+        margin:0 5px;
+    }
 
 
 
@@ -78,54 +78,54 @@ button:hover{
     background-color: #FDF2E3;
     scroll-margin-top: 67px;
 }
-.classtitle{
-    font-size: 20px;
-    cursor:default;
-}
-.web{
-    display: flex;
-    justify-content: center;
-    margin:0 auto;
-    height:40px;
-}
+    .classtitle{
+        font-size: 20px;
+        cursor:default;
+    }
+    .web{
+        display: flex;
+        justify-content: center;
+        margin:0 auto;
+        height:40px;
+    }
 
-.url{
-    color:black;
-    text-decoration: none;
-}
-.name{
-    position: relative;
-    font-size:15px;
-    width:320px;
-    text-align: left;
-    padding: 1px 5px;
-    border:1px solid grey;
-    border-radius:8px;
-    background-color: white;
-    margin:auto 0;
-    transition: all 0.5s;
-}
-.name:hover{
-    color:crimson;
-    transform: translateX(4px);
-    animation: breathing 1.5s ease infinite;
-}
+        .url{
+            color:black;
+            text-decoration: none;
+        }
+        .name{
+            position: relative;
+            font-size:15px;
+            width:320px;
+            text-align: left;
+            padding: 1px 5px;
+            border:1px solid grey;
+            border-radius:8px;
+            background-color: white;
+            margin:auto 0;
+            transition: all 0.5s;
+        }
+        .name:hover{
+            color:crimson;
+            transform: translateX(4px);
+            animation: breathing 1.5s ease infinite;
+        }
 
-.descbutton{
-    margin:auto 7px;
-    font-size: 14px;
-    padding: 0 6px;
-}
-.desc{
-    position: absolute;
-    top:0;
-    border-radius:5px;
-    opacity:0;
-    transition:all 0.5s;
-    width:320px;
-    text-align: right;
-    margin:0;
-}
+        .descbutton{
+            margin:auto 7px;
+            font-size: 14px;
+            padding: 0 6px;
+        }
+        .desc{
+            position: absolute;
+            top:0;
+            border-radius:5px;
+            opacity:0;
+            transition:all 0.5s;
+            width:320px;
+            text-align: right;
+            margin:0;
+        }
 
 
 
@@ -144,6 +144,7 @@ button:hover{
     cursor:pointer;
     text-align: right;
     transition: all 0.5s ;
+    z-index: 1;
 }
 .sidebar_2{
     box-sizing: border-box;
@@ -157,33 +158,34 @@ button:hover{
     left:-130px;
     transition: all 0.5s ;
     text-align: center;
+    z-index: 1;
 }
-.sidebar_title{
-    font-size: 20px;
-    margin:5px auto 15px;
-}
-.sidebar_button{
-    display: block;
-    width:80px;
-    margin:10px auto;
-    font-size: 15px;
-    padding: 0 6px;
-    color:black;
-    text-decoration: none;;
-    text-align: center;
-    padding: 1px 5px;
-    border:1px solid grey;
-    border-radius:8px;
-    background-color: white;
-    cursor:pointer;
-    opacity:0.8;
-    transition: all 0.5s;
-}
-.sidebar_button:hover{
-    transform: translateY(-4px);
-    box-shadow:3px 3px 3px rgba(0,0,0,0.3);
-    opacity: 1;
-}
+    .sidebar_title{
+        font-size: 20px;
+        margin:5px auto 15px;
+    }
+    .sidebar_button{
+        display: block;
+        width:80px;
+        margin:10px auto;
+        font-size: 15px;
+        padding: 0 6px;
+        color:black;
+        text-decoration: none;;
+        text-align: center;
+        padding: 1px 5px;
+        border:1px solid grey;
+        border-radius:8px;
+        background-color: white;
+        cursor:pointer;
+        opacity:0.8;
+        transition: all 0.5s;
+    }
+    .sidebar_button:hover{
+        transform: translateY(-4px);
+        box-shadow:3px 3px 3px rgba(0,0,0,0.3);
+        opacity: 1;
+    }
 .sidebar_3{
     height:55px;
     width:2px;
@@ -194,4 +196,6 @@ button:hover{
     top:126px;
     left:-2px;
     transition: all 0.5s;
+    z-index: 1;
 }
+
