@@ -208,7 +208,7 @@ button:hover{
             .name:hover{
                 color:black;
                 transform: translateX(0px);
-                animation: breathing 0s ease infinite;
+                animation: none;
             }
         .sidebar_button:hover{
             transform: translateY(0px);
