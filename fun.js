@@ -62,8 +62,17 @@ function sidebar_button_click(event){
     let href = sidebar_button.getAttribute("href");
     let classdiv = document.querySelector(href);
 
-    classdiv.style.animation = "classdiv_breathing 0.5s ease 3";
+    classdivs_breathe_all_clear(classdivs);
     setTimeout(function(){
-        classdiv.style.animation = "none";
-    },1500);
+        classdiv.style.animation = "classdiv_breathing 0.5s ease 0.2s 3 forwards";
+    },1);
+
+    // setTimeout(function(){
+    //     classdiv.style.animation = "none";
+    // },1500);
+}
+function classdivs_breathe_all_clear(classdivs){
+    for(let i = 0;i<classdivs.length;i++){
+        classdivs[i].style.animation = "none";
+    }
 }

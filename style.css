@@ -37,13 +37,13 @@ button:hover{
 }
 @keyframes classdiv_breathing{
     0%{
-        border:2px solid grey;
-    }
-    50%{
         border:2px solid black;
     }
-    100%{
+    50%{
         border:2px solid grey;
+    }
+    100%{
+        border:2px solid black;
     }
 }
 
@@ -150,7 +150,7 @@ button:hover{
     box-sizing: border-box;
     position: fixed;
     width:130px;
-    height:265px;
+    height:305px;
     border:2px solid grey;
     border-radius:10px;
     background-color: #FDF2E3;
@@ -159,7 +159,7 @@ button:hover{
     transition: all 0.5s ;
     text-align: center;
     z-index: 1;
-}
+}   /*  每加一个新标签，height加35px  */
     .sidebar_title{
         font-size: 20px;
         margin:5px auto 15px;

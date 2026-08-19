@@ -1,6 +1,9 @@
-let category_table=["学习","娱乐","功能类","资源中心","社区中转","不常用杂物"];
+let category_table=["学习","娱乐","功能类","资源中心","社区中转","不常用杂物","华科"];
 
 let database=[
+    {id:-1, name:"HUST", desc:"华科官网，主要是对外介绍用的", url:"https://www.hust.edu.cn/", category:6},
+    {id:0, name:"Course", desc:"用于刷水课视频和提交作业", url:"https://course.hust.edu.cn", category:6},
+    {id:-2, name:"Hubs", desc:"查课表、成绩，选课、报名、预约、实习", url:"https://hubs.hust.edu.cn/", category:6},
     {id:1, name:"LeetCode", desc:"力扣，编程刷题网站", url:"https://leetcode.cn/", category:0},
     {id:2, name:"Codeforces", desc:"俄罗斯算法竞赛平台", url:"https://codeforces.com", category:0},
     {id:3, name:"AtCoder", desc:"日本算法竞赛平台", url:"https://atcoder.jp", category:0},
@@ -13,7 +16,7 @@ let database=[
     {id:10, name:"Determinant", desc:"线性代数行列式计算器", url:"https://matrixcalc.org/zh-CN/", category:0},
     {id:11, name:"Edclub", desc:"可以用于学习盲打的教学网站", url:"https://www.edclub.com/", category:0},
     {id:12, name:"RunNoob", desc:"汇聚各种编程教程资源", url:"https://www.runoob.com", category:0},
-    {id:13, name:"HUST JSP", desc:"华科教师主页", url:"https://faculty.hust.edu.cn/index.jsp", category:4},
+    {id:13, name:"HUST JSP", desc:"华科教师主页", url:"https://faculty.hust.edu.cn/index.jsp", category:6},
     {id:14, name:"Bilibili", desc:"二次元视频平台，互联网最深处", url:"https://www.bilibili.com/", category:1},
     {id:15, name:"ByrutGame", desc:"俄罗斯大蛇网", url:"https://byrut.org/", category:1},
     {id:16, name:"游侠网", desc:"几乎快要凉凉的盗版游戏网站", url:"https://www.ali213.net/", category:1},
@@ -57,7 +60,7 @@ let database=[
     {id:54, name:"Pinterest", desc:"红P，插画临摹素材网站", url:"https://www.pinterest.com/", category:4},
     {id:55, name:"Discord", desc:"多功能社区", url:"https://discord.com/", category:4},
     {id:56, name:"Deltarune Community", desc:"三角符文同人(色)图社区", url:"https://undertale.reactor.cc/", category:4},
-    {id:57, name:"HUST VR", desc:"华科的VR全貌预览，拿来骗新生", url:"https://vr.hust.edu.cn/720v2/player/82", category:5},
+    {id:57, name:"HUST VR", desc:"华科的VR全貌预览，拿来骗新生", url:"https://vr.hust.edu.cn/720v2/player/82", category:6},
     {id:58, name:"Unzip Download", desc:"解压专家下载链接", url:"http://www.2265.com/soft/490234.html", category:5},
     {id:59, name:"HappyTreeFriends", desc:"欢乐树动画原链接", url:"https://www.wcofun.net/anime/happy-tree-friends", category:5},
     {id:60, name:"Slendytubbies3 CE", desc:"鬼3社区版链接(默哀)", url:"https://www.mediafire.com/file/8p5q6fygbvcrtby/Slendytubbies+3+Community+Edition.zip/file", category:5},
@@ -73,12 +76,14 @@ let database=[
     {id:70, name:"MDN WebDocs", desc:"Mozilla 官方 Web 技术文档", url:"https://developer.mozilla.org/zh-CN/", category:3},
     {id:71, name:"PubAPIs", desc:"Github社区免费公开API库", url:"https://github.com/public-apis/public-apis/blob/master/README.md", category:3},
     {id:72, name:"Rapid", desc:"第三方API在线调试聚合平台", url:"https://rapidapi.com/hub", category:3},
+    {id:73, name:"SuiXiang", desc:"相当全面的llm中转站", url:"https://sui-xiang.com/home", category:4},
+    {id:74, name:"ASoftMurmur", desc:"用白噪音洗去干扰", url:"https://asoftmurmur.com/", category:2},
 
 ];
 
 /*
-let category_table=["学习","娱乐","功能类","资源中心","社区中转","不常用杂物"];
-                      0      1      2         3         4          5
+let category_table=["学习","娱乐","功能类","资源中心","社区中转","不常用杂物","华科"];
+                      0      1      2         3         4          5         6
 */
 /*
     {id:, name:"", desc:"", url:"", category:},
