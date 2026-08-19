@@ -19,7 +19,7 @@ let database=[
     {id:13, name:"HUST JSP", desc:"华科教师主页", url:"https://faculty.hust.edu.cn/index.jsp", category:6},
     {id:14, name:"Bilibili", desc:"二次元视频平台，互联网最深处", url:"https://www.bilibili.com/", category:1},
     {id:15, name:"ByrutGame", desc:"俄罗斯大蛇网", url:"https://byrut.org/", category:1},
-    {id:16, name:"游侠网", desc:"几乎快要凉凉的盗版游戏网站", url:"https://www.ali213.net/", category:1},
+    {id:16, name:"Ali213", desc:"几乎快要凉凉的盗版游戏网站", url:"https://www.ali213.net/", category:1},
     {id:17, name:"Itch", desc:"小型创作者游戏平台", url:"https://itch.io/games", category:1},
     {id:18, name:"Kickass", desc:"让我们携手摧毁你的页面吧", url:"https://kickassapp.com/", category:1},
     {id:19, name:"Peanutdl", desc:"哔哩哔哩等平台视频下载", url:"https://peanutdl.com/zh/", category:2},
