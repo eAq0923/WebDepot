@@ -78,6 +78,7 @@ let database=[
     {id:72, name:"Rapid", desc:"第三方API在线调试聚合平台", url:"https://rapidapi.com/hub", category:3},
     {id:73, name:"SuiXiang", desc:"相当全面的llm中转站", url:"https://sui-xiang.com/home", category:4},
     {id:74, name:"ASoftMurmur", desc:"用白噪音洗去干扰", url:"https://asoftmurmur.com/", category:2},
+    {id:75, name:"1037wiki", desc:"华科专业课资料+往年试卷集", url:"https://1037.wiki/", category:6}
 
 ];
 
