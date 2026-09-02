@@ -42,8 +42,8 @@ let database=[
     {id:36, name:"Animated Drawings", desc:"试试让图片动起来？", url:"https://sketch.metademolab.com/canvas", category:2},
     {id:37, name:"EarthObservation", desc:"实时地球气候观测", url:"https://earth.nullschool.net/", category:2},
     {id:38, name:"Gmail", desc:"谷歌邮箱", url:"https://mail.google.com/mail/u/0/#inbox", category:4},
-    {id:39, name:"Chujiang Wang", desc:"你对此一无所知", url:"https://wangchujiang.com/#/projects", category:2},
-    {id:40, name:"Magiconch", desc:"你对此一无所知", url:"https://lab.magiconch.com/", category:2},
+    {id:39, name:"Chujiang Wang", desc:"你对此一无所知？？？", url:"https://wangchujiang.com/#/projects", category:2},
+    {id:40, name:"Magiconch", desc:"你对此一无所知？？？", url:"https://lab.magiconch.com/", category:2},
     {id:41, name:"Clash", desc:"小蓝猫VPN官网", url:"https://xn--1-q07a56pdss.com/", category:4},
     {id:42, name:"Deltarune", desc:"三角符文官网，吊塔润真是太棒了", url:"https://www.deltarune.com/", category:4},
     {id:43, name:"Github", desc:"欢迎来到Github", url:"https://github.com/", category:3},
@@ -80,11 +80,23 @@ let database=[
     {id:74, name:"ASoftMurmur", desc:"用白噪音洗去干扰", url:"https://asoftmurmur.com/", category:2},
     {id:75, name:"1037wiki", desc:"华科专业课资料+往年试卷集", url:"https://1037.wiki/", category:6},
     {id:76, name:"IsaacRoom", desc:"来锻炼你寻找隐藏房的能力吧", url:"https://roomle.net/endless", category:1},
+    {id:77, name:"OfficeCLI", desc:"办公文档智能处理与分析", url:"https://github.com/iOfficeAI/OfficeCLI", category:7},
+    {id:78, name:"Markitdown", desc:"多格式文件转Markdown", url:"https://github.com/microsoft/markitdown", category:7},
+    {id:79, name:"Mattpocock", desc:"前端开发与代码优化技能集", url:"https://github.com/mattpocock/skills", category:7},
+    {id:80, name:"DashiPPT", desc:"PPT设计与生成工具", url:"https://github.com/chuspeeism/dashi-ppt-skill", category:7},
+    {id:81, name:"CodexPPT", desc:"生成统一风格PPT", url:"https://github.com/ningzimu/codex-ppt-skill", category:7},
+    {id:82, name:"PPTMaster", desc:"可编辑PPT设计生成工具", url:"https://github.com/hugohe3/ppt-master", category:7},
+    {id:83, name:"Shuorenhua", desc:"让AI表达更自然贴近人话", url:"https://github.com/MrGeDiao/shuorenhua", category:7},
+    {id:84, name:"NuwaSkill", desc:"提炼人物思维与表达风格", url:"https://github.com/alchaincyf/nuwa-skill", category:7},
+    {id:85, name:"PonyTail", desc:"约束编程任务避免过度设计", url:"https://github.com/DietrichGebert/ponytail", category:7},
+    {id:86, name:"CodeinWord", desc:"让你的代码保持语法高亮吧", url:"https://codeinword.com/", category:2},
+    {id:87, name:"SomeManyBooks", desc:"计算机教程图书馆", url:"https://github.com/Dujltqzv/Some-Many-Books", category:3},
+
 ];
 
 /*
-let category_table=["学习","娱乐","功能类","资源中心","社区中转","不常用杂物","华科"];
-                      0      1      2         3         4          5         6
+let category_table=["学习","娱乐","功能类","资源中心","社区中转","不常用杂物","华科","Skill库"];
+                      0      1      2         3         4          5         6       7
 */
 /*
     {id:, name:"", desc:"", url:"", category:},
