@@ -91,6 +91,7 @@ let database=[
     {id:85, name:"PonyTail", desc:"约束编程任务避免过度设计", url:"https://github.com/DietrichGebert/ponytail", category:7},
     {id:86, name:"CodeinWord", desc:"让你的代码保持语法高亮吧", url:"https://codeinword.com/", category:2},
     {id:87, name:"SomeManyBooks", desc:"计算机教程图书馆", url:"https://github.com/Dujltqzv/Some-Many-Books", category:3},
+    {id:88, name:"GPA", desc:"查询华科绩点和加权成绩", url:"https://cjd.hust.edu.cn/", category:6},
 
 ];
 
